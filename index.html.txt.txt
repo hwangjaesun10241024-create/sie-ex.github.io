@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>나의 홈페이지</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #4a90e2;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #4a90e2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #357ABD;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>환영합니다 👋</h1>
+    <p>여기는 나의 무료 홈페이지입니다</p>
+</header>
+
+<nav>
+    <a href="#about">소개</a>
+    <a href="#service">서비스</a>
+    <a href="#contact">연락처</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>회사/개인 소개</h2>
+        <p>여기에 소개글을 작성하세요.</p>
+    </div>
+</section>
+
+<section id="service">
+    <div class="card">
+        <h2>서비스 안내</h2>
+        <p>제공하는 서비스 내용을 작성하세요.</p>
+        <button onclick="alert('문의 감사합니다!')">문의하기</button>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>연락처</h2>
+        <p>Email: example@email.com</p>
+        <p>전화번호: 010-0000-0000</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 나의 홈페이지. All rights reserved.
+</footer>
+
+</body>
+</html>
